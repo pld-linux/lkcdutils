@@ -12,7 +12,7 @@ Group:		Applications
 Source0:	http://dl.sourceforge.net/lkcd/%{name}-%{version}.tar.gz
 # Source0-md5:	8cd68ff9115d210d4f1c6458929559a3
 URL:		http://lkcd.sourceforge.net/
-Buildrequires:	byacc
+BuildRequires:	byacc
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
